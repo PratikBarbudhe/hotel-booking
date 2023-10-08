@@ -8,7 +8,7 @@
     background-image: url(https://c4.wallpaperflare.com/wallpaper/20/164/15/booking-best-hotels-bangkok-tourism-wallpaper-preview.jpg);
     background-repeat: no-repeat;
     height: 500px;
-    background-size: 97% 450px ;
+    background-size: 97% 400px ;
     background-position: center;
     margin-top: 50px;
     width: auto;
@@ -41,4 +41,10 @@
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+.search{
+    display: block;
+    margin-left: 110px;
+    margin-top: 130px;
 }
