@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgroung-image{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/20/164/15/booking-best-hotels-bangkok-tourism-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 97% 450px ;
+    background-position: center;
+    margin-top: 50px;
+    width: auto;
+}
+
+.heading-1{
+    margin-top: 10px;
+}
+.heading{
+    color: white;
+    font-family:sans-serif ;
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 50px;
+}
