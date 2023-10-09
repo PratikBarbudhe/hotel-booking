@@ -58,6 +58,19 @@
     cursor: pointer;
 }
 .sub-heading{
-    margin-left: 130px;
+    margin-left: 170px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.sub-text{
+    margin-left: 170px;
+    margin-top: 20px;
     font-size: 20px;
+}
+
+.sub-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
 }
