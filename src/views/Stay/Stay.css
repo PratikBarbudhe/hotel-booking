@@ -48,6 +48,16 @@
     margin-left: 110px;
     margin-top: 130px;
 }
+
 .checkbox{
-    
+   margin-left: 170px;
+   cursor: pointer;
+}
+.checkbox-label{
+    font-size: 20px;
+    cursor: pointer;
+}
+.sub-heading{
+    margin-left: 130px;
+    font-size: 20px;
 }
