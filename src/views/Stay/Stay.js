@@ -54,7 +54,9 @@ function Stay(){
                <p className='sub-text m-b'>Hit a six with your match-day accommodation</p>
 
                <div className='img-container'>
-                <img src='' alt='' />
+                <img src='https://triponzy.com/images/city/ahmedabad.jpg' alt='' className='state-img'/>
+                <img src='https://tse3.mm.bing.net/th?id=OIP.Q2mDbXc6b1t1A-dD-Ym3ggHaE7&pid=Api&P=0&h=180' alt='' className='state-img'/>
+                <img 
 
                </div>
 

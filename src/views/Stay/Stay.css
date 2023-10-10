@@ -149,3 +149,8 @@
 .m-b{
     margin-bottom: 20px;
 }
+
+.state-img{
+    width: 250px;
+    height: 150px;
+}
