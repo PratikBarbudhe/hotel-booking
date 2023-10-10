@@ -54,9 +54,36 @@ function Stay(){
                <p className='sub-text m-b'>Hit a six with your match-day accommodation</p>
 
                <div className='img-container'>
-                <img src='https://triponzy.com/images/city/ahmedabad.jpg' alt='' className='state-img'/>
+               <div>
+               <img src='https://triponzy.com/images/city/ahmedabad.jpg' alt='' className='state-img'/>
+               <h3 className='state-heading'>ahemedabad</h3>
+               </div>
+                <div>
                 <img src='https://tse3.mm.bing.net/th?id=OIP.Q2mDbXc6b1t1A-dD-Ym3ggHaE7&pid=Api&P=0&h=180' alt='' className='state-img'/>
-                <img 
+                <h3 className='state-heading'>Hydrabad</h3>
+                </div>
+                <div>
+                <img src='https://travelandleisureindia.in/wp-content/uploads/2020/06/Inside-Dharamshala11.jpg' alt=''className='state-img'/>
+                <h3 className='state-heading'>Dharamshala </h3>
+                </div>
+                <div>
+                <img src='https://tse2.mm.bing.net/th?id=OIP.pF7wC1NrkvK3AGz8cnAPOQHaFM&pid=Api&P=0&h=180' alt=''className='state-img'/>
+                <h3 className='state-heading'>New Delhi</h3>
+                </div>
+                <div>
+                <img src='https://tse4.mm.bing.net/th?id=OIP.-W4wf_zXtbQXT1pvbXhGegHaEP&pid=Api&P=0&h=180' alt='' className='state-img' />
+                  <h3 className='state-heading'>Lucknow</h3>
+                </div>
+                <div>
+                <img src='https://tse4.mm.bing.net/th?id=OIP.rDKAZOiDpe7CWSZx5VQvxgHaE7&pid=Api&P=0&h=180' alt=''className='state-img'/>
+                <h3 className='state-heading'>Chennai</h3>
+                </div>
+
+                
+                
+                
+                
+
 
                </div>
 
