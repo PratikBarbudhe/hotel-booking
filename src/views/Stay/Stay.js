@@ -25,10 +25,19 @@ function Stay(){
               <p className='sub-text'>Promotions, deals and special offers for you</p>
                
                <div className='sub-container'>
-                <div>
-                  <h2>Fly away to your dream holiday</h2>
+                <div className='fly-away-content'>
+                  <div className='info-img'>
+                  <h2 className='heading-flight'>Fly away to your dream holiday</h2>
+                  <p className='flight-text'>Get inspired, compare and book flights with more flexibility</p>
+                  <button className='flight-btn'>search for flight</button>
+
+                  </div>
+                  <div className='flight-img-section'>
+                    <img src='https://q-xx.bstatic.com/xdata/images/xphoto/500x500/184698944.png?k=6bb1bf3c13db4a7ba3c22a2d1f1051f793c525a78104703b4dec3eb12101f545&o=' alt='' className='flight-img'/>
+                  </div>
+                  
                 </div>
-                <div>
+                <div className='fly-away-content'>
                   <h2>Take your longest holiday yet</h2>
                 </div>
                </div>
