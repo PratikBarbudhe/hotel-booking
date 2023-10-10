@@ -86,7 +86,7 @@
 .fly-away-content{
     height: 200px;
     width: 500px;
-    box-shadow: 4px 6px 8px black;
+    box-shadow: 4px 6px 8px gray;
     margin: 20px;
     padding: 10px;
     display: flex;
