@@ -1,9 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import Stay from './views/Stay/Stay';
+import ReactDOM from 'react-dom';
+import Stay from './views/Stay/Stay'; 
+import CarRental from './views/Car-Rental/CarRental'
 
+const root = document.getElementById('root');
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <Stay/>
+ReactDOM.render(
+  <div>
+  
+
+  </div>,
+  root
 );
