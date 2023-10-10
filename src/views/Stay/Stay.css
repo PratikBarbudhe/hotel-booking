@@ -77,7 +77,7 @@
 .fly-away-content{
     height: 200px;
     width: 500px;
-    border: solid 1px black;
+    box-shadow: 4px 6px 8px black;
     margin: 20px;
     padding: 10px;
     display: flex;
@@ -109,8 +109,11 @@
 
 }
 .flight-text{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 18px;
 }
 .family-img{
-    
+    height: 190px;
+    width: 190px;
 }
