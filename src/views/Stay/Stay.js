@@ -38,7 +38,14 @@ function Stay(){
                   
                 </div>
                 <div className='fly-away-content'>
+                  <div className=''>
                   <h2>Take your longest holiday yet</h2>
+                  <p>Browse properties offering long-term stays, many at reduced monthly rates.</p>
+                  </div>
+                  <div className=''>
+                    <img src='https://q-xx.bstatic.com/xdata/images/xphoto/500x500/220031205.jpeg?k=bf9841e8ba89dfdf92e02d45e45dc89fcca2d981b7c74ad57d3ecf6ba64ba1c2&o=' alt='' className='family-img'/>
+
+                  </div>
                 </div>
                </div>
 
