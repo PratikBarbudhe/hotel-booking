@@ -51,7 +51,15 @@ function Stay(){
                </div>
 
                <h2 className='sub-heading'>Off to the cricket?</h2>
-               <p className='sub-text'>Hit a six with your match-day accommodation</p>
+               <p className='sub-text m-b'>Hit a six with your match-day accommodation</p>
+
+               <div className='img-container'>
+                <img src='' alt='' />
+
+               </div>
+
+               <h1>gfghoghtyjkl</h1>
+            
 
 
 
