@@ -50,7 +50,8 @@ function Stay(){
                 </div>
                </div>
 
-               <h2>Off to the cricket?</h2>
+               <h2 className='sub-heading'>Off to the cricket?</h2>
+               <p className='sub-text'>Hit a six with your match-day accommodation</p>
 
 
 
