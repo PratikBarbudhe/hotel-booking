@@ -1,24 +1,26 @@
-import "./Flight.css"
 import React, { useState } from 'react';
-import FlightSearchForm from './FlightSearchForm';
-import HotelSearchForm from './HotelSearchForm';
+import "./Flight.css"
+import Dropdownlist from '../../component/Dropdownlist/Dropdownlist';
+import Dropdown from '../../component/Dropdown/Dropdown';
 
-function FlightHotelPage() {
-  const [flightSearchData, setFlightSearchData] = useState(null);
-  const [hotelSearchData, setHotelSearchData] = useState(null);
+//import FlightSearchForm from './FlightSearchForm';
+//import HotelSearchForm from './HotelSearchForm';
 
+function Flight() {
 
   return (
-    <div>
-      <h2>Flight + Hotel Search</h2>
-      <FlightSearchForm onSubmit={setFlightSearchData} />
-      <HotelSearchForm onSubmit={setHotelSearchData} />
-
-
+    <div className="body">
+      <div className="background-img">
+        <h1 className='heading'>Your entire holiday in one click!</h1>
+        <h3>Book flight + hotel</h3>
+         <Dropdown/> <Dropdownlist/>         
+          <p className='text'></p>
+      </div>
     </div>
   );
 }
 
-export default FlightHotelPage;
+
+export default Flight;
 
 
