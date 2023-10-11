@@ -1,27 +1,29 @@
+/* button color : #0066ff
+   button hover : #003d99
+*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.backgroung-image{
-    background-image: url(https://c4.wallpaperflare.com/wallpaper/20/164/15/booking-best-hotels-bangkok-tourism-wallpaper-preview.jpg);
+.backgroung-image-1{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/20/164/15/booking-best-hotels-bangkok-tourism-wallpaper-preview.jpg');
     background-repeat: no-repeat;
     height: 500px;
     background-size: 97% 400px ;
     background-position: center;
-    margin-top: 50px;
     width: auto;
 }
 
 .heading-1{
-    margin-top: 10px;
 }
 .heading{
     color: white;
     font-family:sans-serif ;
     margin-left: 170px;
-    margin-top: 90px;
+    margin-top: 50px;
     font-size: 50px;
 }
 
@@ -31,8 +33,9 @@
     margin-left: 170px;
     margin-top:20px;
 }
+
 .btn{
-    background-color: blue;
+    background-color: black;
     height: 50px;
     width: 150px;
     font-size: 18px;
@@ -41,7 +44,12 @@
     border: none;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
+.btn:hover{
+    background-color: black;
+}
+
 
 .search{
     display: block;
@@ -53,10 +61,12 @@
    margin-left: 170px;
    cursor: pointer;
 }
+
 .checkbox-label{
     font-size: 20px;
     cursor: pointer;
 }
+
 .sub-heading{
     margin-left: 170px;
     margin-top: 40px;
@@ -71,6 +81,82 @@
 
 .sub-container{
     display: flex;
-    justify-content: space-evenly;
-    background-color: aqua;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fly-away-content{
+    height: 200px;
+    width: 500px;
+    box-shadow: 4px 6px 8px gray;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.info-img{
+    height: 200px;
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.heading-flight{
+    margin-bottom: 15px;
+}
+
+.flight-img{
+    height: 150px;
+    width: 200px;
+}
+
+.flight-btn{
+    background-color: black;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.flight-btn:hover{
+    background-color: gray;
+}
+
+.flight-text{
+    margin-bottom: 20px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.family-img{
+    height: 190px;
+    width: 190px;
+}
+
+.img-container{
+    width: 75%;
+    height: 200px;
+    margin-left: 170px;
+
+}
+.m-b{
+    margin-bottom: 20px;
+}
+
+.state-img{
+    width: 180px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.state-heading{
+    margin-left: 10px;
 }
