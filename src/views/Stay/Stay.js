@@ -1,3 +1,4 @@
+import Navbar from '../../component/Navbar/Navbar';
 import './Stay.css';
 
 
@@ -5,7 +6,8 @@ import './Stay.css';
 function Stay(){
     return(
         <div>
-         <div className="backgroung-image" >
+          <Navbar/>
+         <div className="backgroung-image-1" >
             <h1 className='heading-1'>-</h1>
             <h1 className='heading'>Howzat for a perfect stay</h1>
             <p className='text'>Search hotels, homes and much more</p>
@@ -87,7 +89,7 @@ function Stay(){
 
                </div>
 
-               <h1>gfghoghtyjkl</h1>
+               <h1>Hello i am achal </h1>
             
 
 
