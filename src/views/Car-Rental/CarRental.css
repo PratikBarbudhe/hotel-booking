@@ -1,0 +1,78 @@
+
+.car-rental-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-rental-container header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.car-rental-container header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.car-rental-container header p {
+  font-size: 1.2rem;
+}
+
+.car-rental-container .search-section {
+  background-color: white;
+  padding: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.car-rental-container .search-details input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+
+.car-rental-container .search-details label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.car-rental-container .date-time {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.car-rental-container .date-time input[type="text"] {
+  width: 48%;
+}
+
+.car-rental-container .search-button {
+  background-color: #007acc;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+
+.car-rental-container .search-button:hover {
+  background-color: #005b9f;
+}
