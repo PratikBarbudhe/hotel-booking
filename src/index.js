@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom/client';
 import Stay from './views/Stay/Stay';
 import Flight from './views/Flight/Flight';
 import Login from './views/Login/Login';
-import Register from "./views/Register/Register"
+import Register from "./views/Register/Register";
+import CarRental from "./views/Car-Rental/CarRental";
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
 
 
 const router = createBrowserRouter([
@@ -15,6 +17,10 @@ const router = createBrowserRouter([
     {
       path: "/flight",
       element: <Flight/>,
+    },
+    {
+      path: "/CarRental",
+      element: <CarRental/>,
     },
     {
         path:"/login",
