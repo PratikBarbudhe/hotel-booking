@@ -1,12 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Stay from './views/Stay/Stay';
-<<<<<<< main
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  
-);
 import Flight from './views/Flight/Flight';
 import Login from './views/Login/Login';
 import Register from "./views/Register/Register"
@@ -38,4 +32,3 @@ root.render(
     <RouterProvider router={router} />
 
 )
->>>>>>> main
