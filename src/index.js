@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Stay from './views/Stay/Stay';
-import Flight from './views/Flight+hotel/Flight+Hotel';
+import FlightHotel from './views/Flight+Hotel/Flight+Hotel';
 import Login from './views/Login/Login';
 import Register from "./views/Register/Register"
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';

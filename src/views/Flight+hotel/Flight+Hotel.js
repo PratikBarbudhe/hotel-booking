@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import "./Flight.css"
+import "./Flight+Hotel.css"
 import Dropdownlist from '../../component/Dropdownlist/Dropdownlist';
 import Dropdown from '../../component/Dropdown/Dropdown';
 
 //import FlightSearchForm from './FlightSearchForm';
 //import HotelSearchForm from './HotelSearchForm';
 
-function Flight() {
+function FlightHotel() {
 
   return (
     <div className="body">
@@ -21,6 +21,6 @@ function Flight() {
 }
 
 
-export default Flight;
+export default FlightHotel;
 
 
