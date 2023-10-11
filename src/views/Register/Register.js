@@ -1,9 +1,10 @@
 import React from "react";
+import "./Register.css";
 
 function Register () {
     return(
         <>
-        <form action="">
+        <form action="" className="register-container">
             <div>
                 <lable for="username">username</lable>
                 <input type="text" name="usename" id="username"/>
@@ -23,6 +24,8 @@ function Register () {
                 <lable for="password">password</lable>
                 <input type="text" name="password" id="password"/>
             </div>
+
+            <button>Registration</button>
         </form>
 
         </>
