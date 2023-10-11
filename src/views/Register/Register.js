@@ -9,9 +9,24 @@ const MultiInputs = () => {
         phone: " ",
         password: " "
     });
+     
+    const [records, setRecords] = useState([]);
 
-   const handleInput = () => {
+   const handleInput = (e) => {
+     const name = e.target.name;
+     const value = e.target.value;
+     console.log(name, value);
 
+     setUserRegistration({ ...userReistration, [name]: value});
+
+   }
+
+   const handleSubmit =(e) => {
+    e.preventDefault();
+
+    const newRecord = { ...userReistration, id= new Date().getTime().toString()}
+     
+    setRecords([...records, newRecord]);
    }
 
 }
@@ -19,7 +34,7 @@ const MultiInputs = () => {
 function Register () {
     return(
         <>
-        <form action="" className="register-container">
+        <form action="" className="register-container" onSubmit={handleSubmit}>
             <div>
                 <lable for="username">username</lable>
                 <input type="text" autoComplete="off" 
