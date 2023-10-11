@@ -4,6 +4,7 @@ import Stay from './views/Stay/Stay';
 import Flight from './views/Flight/Flight';
 import Login from './views/Login/Login';
 import Register from "./views/Register/Register"
+import FlightHotel from './views/Flight+Hotel/Flight+Hotel';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     {
       path: "/flight",
       element: <Flight/>,
+    },
+    {
+      path: "/Flight+Hotel",
+      element: <FlightHotel/>,
     },
     {
         path:"/login",
