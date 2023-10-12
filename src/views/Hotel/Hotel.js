@@ -7,7 +7,7 @@ import Dropdown1 from '../../component/Dropdown1/Dropdown1';
 // import Footer from '../../component/Footer/Footer';
 
 
-function FlightHotel() {
+function Hotel() {
 
   return (
     <div className="body">
@@ -23,6 +23,6 @@ function FlightHotel() {
 }
 
 
-export default FlightHotel;
+export default Hotel;
 
 

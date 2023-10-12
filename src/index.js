@@ -5,6 +5,7 @@ import Flight from './views/Flight/Flight';
 import Login from './views/Login/Login';
 import Register from "./views/Register/Register";
 import CarRental from "./views/Car-Rental/CarRental";
+import Hotel from "./views/Hotel/Hotel";
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
@@ -27,9 +28,14 @@ const router = createBrowserRouter([
       element:<Login/>
     },
     {
-      path:"Register",
-      element:<Register/>
-   }
+       path:"Register",
+       element:<Register/>
+    },
+    {
+      path:"/hotel",
+      element:<Hotel/>
+    }
+
   ])
 
 
