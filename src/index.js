@@ -5,6 +5,7 @@ import Flight from './views/Flight/Flight';
 import Login from './views/Login/Login';
 import Register from "./views/Register/Register"
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Attractions from './views/Attractions/Attractions';
 
 
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     {
       path: "/flight",
       element: <Flight/>,
+    },
+    {
+      path:"/attraction",
+      element:<Attractions/>
     },
     {
         path:"/login",
