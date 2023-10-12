@@ -1,16 +1,12 @@
-.container{
-    width: 10%;
-    height: 5vh;
-}
 .dropdown{
-    width: 200px;
+    width: 450px;
     margin: 70px;
     margin-top: 100px;
     position: relative;
 }
 .dropdown .dropdown-btn{
     padding: 15px 20px;
-    background: #fff;
+    background: #1e1b1b;
     box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
     font-weight: bold;
     color: #333;

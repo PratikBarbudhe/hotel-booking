@@ -1,4 +1,4 @@
-/* Dropdown.css */
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -7,9 +7,9 @@
   .dropdown-header {
     cursor: pointer;
     padding: 10px;
-    border: 1px solid #ccc;
+    color: #f0f0f0;
     border-radius: 4px;
-    background-color: #fff;
+    background-color: #419bf0;
   }
   
   .dropdown-list {

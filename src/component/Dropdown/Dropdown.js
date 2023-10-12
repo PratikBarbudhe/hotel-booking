@@ -3,39 +3,44 @@ import "./Dropdown.css"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartArrowDown} from '@fortawesome/free-solid-svg-icons'
+<FontAwesomeIcon icon={faCartArrowDown} className='arrow' />
 
-// const Dropdown = () => {
-//   const [isOpen, setIsOpen] = useState(false);
-//   const [selectedOption, setSelectedOption] = useState(null);
+const Dropdown = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(null);
 
+  const options = [
+    'New Delhi, National Capital Territory of India, India',
+    'Mumbai, Maharastra, India',
+    'Nagpur, Maharashtra, India',
+    
+  ];
 
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
 
-export default function Dropdown({selected, setSelected}) {
-    const [isActive, setIsActive] = useState(false);
-    const options = ["React","Vue","Angular"];
-  
-    return(
-      <div className="dropdown">
-        <div className="dropdown-btn" onClick={(e) =>
-        
-        setIsActive(!isActive)}>
-          {selected}
-          <FontAwesomeIcon icon={faCartArrowDown} className='arrow' />
-        </div>
-        {isActive && (
-          <div className="dropdown-content">
-            {options.map ((options) => (
-              <div
-              onClick={(e) => {
-                setSelected(options);
-                setIsActive(false);
-              }}
-              className="dropdown-item">
-                {options}
-                </div>
-            ))}
-            </div>
-        )}
+  const handleOptionClick = (option) => {
+    setSelectedOption(option);
+    setIsOpen(false);
+  };
+
+  return (
+    <div className="dropdown">
+      <div className="dropdown-header" onClick={toggleDropdown}>
+        {selectedOption || 'Select an option'}
       </div>
-    );
-  }
+      {isOpen && (
+        <ul className="dropdown-list">
+          {options.map((option, index) => (
+            <li key={index} onClick={() => handleOptionClick(option)}>
+              {option}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+};
+
+export default Dropdown;

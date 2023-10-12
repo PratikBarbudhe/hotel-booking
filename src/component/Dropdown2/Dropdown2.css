@@ -1,0 +1,50 @@
+
+/* Style the container */
+.booking-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .booking-option {
+    flex: 1;
+  }
+
+  /* Style the labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style the select boxes */
+  select {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Style the date input fields */
+  input[type="date"] {
+    padding: 5px;
+    width: 100%;
+  }
+  
+  /* Style the dropdown options */
+  select option {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+  }
+  
+  /* Style the container to center its content */
+  div {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Add some spacing and background color */
+  div {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
