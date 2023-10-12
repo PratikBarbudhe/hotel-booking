@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .background-image {
     background-image: url('Flight.jpg');
     background-repeat: no-repeat;
@@ -38,7 +37,8 @@
 .headline-1 {
     margin-left: 40px;
     font-size: 25px;
-=======
+}
+
 .backgroung-image{
     background-image: url('https://previews.123rf.com/images/rudzhan/rudzhan2003/rudzhan200300066/142101202-businessman-hands-ordering-flight-tickets-on-mobile-phone-app-concept-poster-with-a-plane-in-the-sky.jpg');
     background-repeat: no-repeat;
@@ -46,5 +46,4 @@
     background-size: 97% 400px ;
     background-position: center;
     width: auto;
->>>>>>> f0ca9f3f1b7f713718d9587a378778dc27d9c6b4
 }
