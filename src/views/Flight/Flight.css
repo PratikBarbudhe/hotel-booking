@@ -1,3 +1,44 @@
+<<<<<<< HEAD
+.background-image {
+    background-image: url('Flight.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 97% 400px;
+    background-position: center;
+    margin-top: 50px;
+    width: auto;
+}
+
+.sub-heading {
+    color: white;
+}
+
+.main-heading {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.btn-discover-more {
+    margin-top: 190px;
+    margin-left: 160px;
+    font-size: 25px;
+    background-color: #000099;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-discover-more:hover {
+    background-color: #0000ff;
+    transition: 2s;
+}
+
+.headline-1 {
+    margin-left: 40px;
+    font-size: 25px;
+=======
 .backgroung-image{
     background-image: url('https://previews.123rf.com/images/rudzhan/rudzhan2003/rudzhan200300066/142101202-businessman-hands-ordering-flight-tickets-on-mobile-phone-app-concept-poster-with-a-plane-in-the-sky.jpg');
     background-repeat: no-repeat;
@@ -5,4 +46,5 @@
     background-size: 97% 400px ;
     background-position: center;
     width: auto;
+>>>>>>> f0ca9f3f1b7f713718d9587a378778dc27d9c6b4
 }
