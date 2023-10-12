@@ -4,3 +4,25 @@
     height: 500px;
     color: white;
 }
+.user-input{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 300px;
+}
+.register-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 140px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.show-register{
+    
+}
