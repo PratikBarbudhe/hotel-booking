@@ -28,6 +28,11 @@ const router = createBrowserRouter([
       element:<Login/>
     },
     {
+      path:"/CarRental",
+      element:<CarRental/>
+    },
+
+    {
        path:"Register",
        element:<RegistrationForm/>
     },
