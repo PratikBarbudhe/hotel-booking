@@ -5,10 +5,10 @@ import Flight from './views/Flight/Flight';
 import Login from './views/Login/Login';
 import RegistrationForm from "./views/Register/Register";
 import CarRental from "./views/Car-Rental/CarRental";
+import Attractions from './views/Attractions/Attractions';
 import Hotel from "./views/Hotel/Hotel";
 import Attractions from './views/Attractions/Attractions';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
 
 
 const router = createBrowserRouter([
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       element: <Flight/>,
     },
    {
-  path:"/attractions",
+  path:"/attraction",
   element:<Attractions/>
    },
     {
@@ -35,7 +35,8 @@ const router = createBrowserRouter([
     {
       path:"/hotel",
       element:<Hotel/>
-    }
+    },
+
 
   ])
 

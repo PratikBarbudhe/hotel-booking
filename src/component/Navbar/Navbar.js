@@ -13,6 +13,7 @@ export default function Navbar() {
             <Link className="nav-menu"  to="/CarRental">Car Rental</Link>
             <Link className="nav-menu"  to="/login">Login</Link>
             <Link className="nav-menu"  to="/register">Register</Link>
+            <Link className="nav-menu"  to="/attraction">Attraction</Link>
            
 
         </div>
