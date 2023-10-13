@@ -28,8 +28,14 @@
     width: 140px;
     padding: 10px;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+.register-btn:hover{
+    background-color: gray;
 }
 
 .register-form{
