@@ -27,12 +27,11 @@ const RegistrationForm = () => {
   return (
     <div className="registration-form">
       <h2>Registration Form</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className='register-form'>
         <div className="form-group">
-          <label htmlFor="firstName">First Name:</label>
           <input
             type="text"
-            id="firstName"
+            placeholder='firstName'
             name="firstName"
             value={formData.firstName}
             onChange={handleInputChange}
@@ -41,10 +40,9 @@ const RegistrationForm = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="lastName">Last Name:</label>
           <input
             type="text"
-            id="lastName"
+            placeholder='lastName'
             name="lastName"
             value={formData.lastName}
             onChange={handleInputChange}
@@ -53,10 +51,9 @@ const RegistrationForm = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email:</label>
           <input
             type="email"
-            id="email"
+            placeholder='email'
             name="email"
             value={formData.email}
             onChange={handleInputChange}
@@ -65,10 +62,9 @@ const RegistrationForm = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="password">Password:</label>
           <input
             type="password"
-            id="password"
+            placeholder='password'
             name="password"
             value={formData.password}
             onChange={handleInputChange}

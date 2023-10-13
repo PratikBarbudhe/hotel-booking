@@ -3,8 +3,16 @@
     width: 400px;
     height: 500px;
     color: white;
+    margin: 0 auto;
+    margin-top: 100px;
 }
-.user-input{
+
+.registration-form{
+    font-size: 30px;
+    text-align: center;
+}
+
+.input-user{
     padding: 10px;
     margin: 10px;
     margin-left: 45px;
@@ -24,9 +32,6 @@
     cursor: pointer;
 }
 
-.show-register{
-    width: 300px;
-    height: 100px;
-    background-color: red;
-    color: white;
+.register-form{
+    margin-top: 60px;
 }
