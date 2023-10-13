@@ -10,9 +10,10 @@ const Dropdown = () => {
   const [selectedOption, setSelectedOption] = useState(null);
 
   const options = [
-    'New Delhi, National Capital Territory of India, India',
-    'Mumbai, Maharastra, India',
-    'Nagpur, Maharashtra, India',
+    'New Delhi, National Capital, India.',
+    'Mumbai, Maharastra, India.',
+    'Nagpur, Maharashtra, India.',
+    'Bengaluru, Karnataka, India.'
     
   ];
 
@@ -28,7 +29,7 @@ const Dropdown = () => {
   return (
     <div className="dropdown">
       <div className="dropdown-header" onClick={toggleDropdown}>
-        {selectedOption || 'Select an option'}
+        {selectedOption || 'Select City'}
       </div>
       {isOpen && (
         <ul className="dropdown-list">

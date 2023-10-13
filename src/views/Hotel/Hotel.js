@@ -12,12 +12,29 @@ function Hotel() {
   return (
     <div className="body">
       <div className="background-img">
-        <h1 className='heading'>Your entire holiday in one click!</h1>
-        <h3>Book Your Hotel Now</h3>
+        <div className='tracking-in-contract'>
+        <h1 className='heading '>Your entire holiday in one click!</h1>
+        <h3 >Book Your Hotel Now</h3>
+        </div>
           <Dropdown/> <Dropdown1/>  
-         <p className='text'></p>
-         
+         <p className='text'></p> 
       </div>
+        <section className='book'>
+          <div className='container flex_space'>
+            <div className='text'>
+              <h1> <span>Book</span> Your Rooms</h1>
+            </div>
+            <div className="from">
+              <form className="grid">
+                <input type="date" placeholder='Arivial Date'/>
+                <input type="date" placeholder='Diparture Date'/> 
+                <input type="number" placeholder='Adults'/>
+                <input type="number" placeholder='Children'/> 
+                <input type="submit" placeholder='CHECK AVAILABILITY'/>
+              </form>  
+            </div>
+          </div>
+        </section>
     </div>
   );
 }
