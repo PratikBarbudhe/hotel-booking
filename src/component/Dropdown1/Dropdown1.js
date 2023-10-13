@@ -7,11 +7,11 @@ const Dropdown = () => {
   const [selectedOption, setSelectedOption] = useState(null);
 
   const options = [
-    'Option 1',
-    'Option 2',
-    'Option 3',
-    'Option 4',
-    'Option 5',
+    'Single',
+    'Double',
+    'Suite',
+    'Deluxe',
+    'Family',
   ];
 
   const toggleDropdown = () => {
@@ -26,7 +26,7 @@ const Dropdown = () => {
   return (
     <div className="dropdown">
       <div className="dropdown-header" onClick={toggleDropdown}>
-        {selectedOption || 'Select an option'}
+        {selectedOption || 'Select Room '}
       </div>
       {isOpen && (
         <ul className="dropdown-list">
