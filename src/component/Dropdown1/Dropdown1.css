@@ -1,0 +1,36 @@
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-header {
+    cursor: pointer;
+    padding: 10px;
+    color: #f0f0f0;
+    border-radius: 4px;
+    background-color: #4890d7;
+  }
+  
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    margin-top: 5px;
+    padding: 2px;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 99%;
+  }
+  
+  .dropdown-list li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-list li:hover {
+    background-color: #e8d4d4;
+  }
+  
