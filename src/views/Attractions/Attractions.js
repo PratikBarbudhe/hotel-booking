@@ -2,6 +2,11 @@ import React from "react";
 import "./Attractions.css"
 import kolkata from "./kolkata.jpg"
 import Navbar from "../../component/Navbar/Navbar";
+import Cards from "../../component/Cards/Cards";
+import Agra from "./agra.jpg";
+import Oldgao from "./old gao.jpg";
+import London from "./London.webp";
+import Paris from "./paris.jpg";
 
 function Attractions(){
     return(
@@ -13,15 +18,17 @@ function Attractions(){
         <p className="attractions-subtitle"> Discover new attractions and experiences to match your<br/> interests and travel style</p>
         <div className="place-container">
         <input type="text" placeholder="Where are you going" className="place-search"/>
-        <label for="placedate">Select yours date</label>
+        
         <input type="date" placeholder="Select yours date" className="place-date"/>
         </div>
         </div>
-        <h3>Nearby Destinations</h3>
+        <h3 className="heading1">Nearby Destinations</h3>
         <div>
-            <img src={kolkata} alt="kolkata image " height={200} width={300}/>
-            <h4>Kolkata</h4>
-            <p>20 Things to do</p>
+            <Cards img={kolkata} name="kolkata" info="15 things to do"   />
+            <Cards img={Agra} name="Agra" info="20 Things To Do "   />
+            <Cards img={Oldgao} name="Old Gao" info="30 things to do" />
+            <Cards img={London} name="London" info="25 things to do"/>
+            <Cards img={Paris} name="Paris" info="40 things to do"/>
         </div>
         </>
     )
