@@ -5,9 +5,9 @@ import Flight from './views/Flight/Flight';
 import Login from './views/Login/Login';
 import RegistrationForm from "./views/Register/Register";
 import CarRental from "./views/Car-Rental/CarRental";
+import Attractions from './views/Attractions/Attractions';
 import Hotel from "./views/Hotel/Hotel";
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-
 
 
 const router = createBrowserRouter([
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     },
    {
   path:"/attraction",
-  element:<Attraction/>
+  element:<Attractions/>
    },
     {
       path:"/login",
@@ -34,7 +34,8 @@ const router = createBrowserRouter([
     {
       path:"/hotel",
       element:<Hotel/>
-    }
+    },
+
 
   ])
 
