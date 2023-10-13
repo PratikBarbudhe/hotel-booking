@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Stay from './views/Stay/Stay';
 import Flight from './views/Flight/Flight';
 import Login from './views/Login/Login';
-import Register from "./views/Register/Register";
+import RegistrationForm from "./views/Register/Register";
 import CarRental from "./views/Car-Rental/CarRental";
 import Hotel from "./views/Hotel/Hotel";
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     },
     {
        path:"Register",
-       element:<Register/>
+       element:<RegistrationForm/>
     },
     {
       path:"/hotel",

@@ -1,4 +1,4 @@
-.register-container{
+.registration-form{
     background-color: blue;
     width: 400px;
     height: 500px;
@@ -21,6 +21,7 @@
     padding: 10px;
     border-radius: 50px;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .show-register{
