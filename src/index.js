@@ -6,6 +6,7 @@ import Login from './views/Login/Login';
 import RegistrationForm from "./views/Register/Register";
 import CarRental from "./views/Car-Rental/CarRental";
 import Hotel from "./views/Hotel/Hotel";
+import Attractions from './views/Attractions/Attractions';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
@@ -20,8 +21,8 @@ const router = createBrowserRouter([
       element: <Flight/>,
     },
    {
-  path:"/attraction",
-  element:<Attraction/>
+  path:"/attractions",
+  element:<Attractions/>
    },
     {
       path:"/login",
