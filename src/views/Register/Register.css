@@ -1,14 +1,14 @@
 .registration-form{
     width: 400px;
-    height: 500px;
+    height: 550px;
     margin: 0 auto;
     margin-top: 100px;
     box-shadow: 3px 5px 7px #003d99;
-}
-
-.registration-form {
+    color:white;
+    margin-top: 40px;
     font-size: 30px;
     text-align: center;
+    background-image: url(https://i.ytimg.com/vi/mBw4t5JXR2o/maxresdefault.jpg);
 }
 
 .input-user{
@@ -31,6 +31,7 @@
     cursor: pointer;
     background-color: #0066ff;
     color: #fff;
+    margin-bottom: 20px;
     border: none;
 }
 .register-btn:hover{
@@ -39,4 +40,10 @@
 
 .register-form{
     margin-top: 40px;
+}
+.register-icon{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
 }

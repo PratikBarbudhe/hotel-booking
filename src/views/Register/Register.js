@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import "./Register.css";
 import showToast from "crunchy-toast";
+import Facebook from "./facebook.png";
+import Google from './google.png';
+import Twitter from './twitter.png';
 
 const RegistrationForm = () => {
   const [formData, setFormData] = useState({
@@ -25,7 +28,9 @@ const RegistrationForm = () => {
   };
 
   return (
-    <div className="registration-form">
+    <>
+    
+     <div className="registration-form">
       <h2>Registration Form</h2>
       <form onSubmit={handleSubmit} className='register-form'>
         <div className="form-group">
@@ -73,8 +78,15 @@ const RegistrationForm = () => {
           />
         </div>
         <button type="submit" className='register-btn'>Register</button>
+        <div className='register-icon'>
+          <img src={Facebook} alt=''/>
+          <img src={Google} alt=''/>
+          <img src={Twitter} alt=''/>
+
+        </div>
       </form>
-    </div>
+      </div>
+  </>
   );
 };
 
