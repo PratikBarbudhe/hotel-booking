@@ -37,6 +37,65 @@
 .headline-1 {
     margin-left: 40px;
     font-size: 25px;
+<<<<<<< HEAD
+    margin-top: 0;
+}
+
+.btn-radio {
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    vertical-align: text-bottom;
+    font-size: 30px;
+}
+
+.flight-list {
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.search-box {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    outline-color: #000099;
+}
+
+#search-box {
+    margin-left: 0.5px;
+}
+
+#search-b0x2 {
+    margin-left: 0.5px;
+    font-size: 20px;
+}
+
+.main-div {
+    background-color: #e6e6ff;
+    margin-top: 0;
+}
+
+.heading-2 {
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.heading-3 {
+    margin-left: 40px;
+    margin-top: 8px;
+    font-size: 19px;
+}
+
+.btn-search {
+    margin-left: 0.5px;
+    background-color: #0000ff;
+=======
 }
 
 .backgroung-image{
@@ -46,4 +105,5 @@
     background-size: 97% 400px ;
     background-position: center;
     width: auto;
+>>>>>>> 516e1918f129931bc075b8db59a9e10cc5e02a23
 }
