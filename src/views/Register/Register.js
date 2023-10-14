@@ -79,9 +79,9 @@ const RegistrationForm = () => {
         </div>
         <button type="submit" className='register-btn'>Register</button>
         <div className='register-icon'>
-          <img src={Facebook} alt=''/>
-          <img src={Google} alt=''/>
-          <img src={Twitter} alt=''/>
+          <a href='https://www.facebook.com/login.php'><img src={Facebook} alt='' className='icon-img'/></a>
+          <a href='https://www.google.com'><img src={Google} className='icon-img'/></a>
+          <a href='https:www.twitter.com'><img src={Twitter} alt='' className='icon-img'/></a>
 
         </div>
       </form>
