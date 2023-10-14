@@ -15,7 +15,17 @@ function Footer(){
               <li><a href="#">Service</a></li>
               <li><a href="#">Collection</a></li>
             </ul>
-          </div>       
+          </div>  
+          <div class="footer-col">
+            <h4>Get Help</h4>
+            <ul class="links">
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Payment Options</a></li>
+            </ul>
+          </div>     
           </div>
       </section>
       )}
