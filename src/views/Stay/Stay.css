@@ -10,7 +10,7 @@
 
 
 .backgroung-image-1{
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/20/164/15/booking-best-hotels-bangkok-tourism-wallpaper-preview.jpg');
+    background-image: url(https://www.hoteltrafficbuilders.com/wp-content/uploads/2021/05/header3-bg1.jpg);
 
     background-repeat: no-repeat;
     height: 500px;
@@ -25,36 +25,31 @@
 
 .heading {
     color: white;
-    font-family: sans-serif;
-    margin-left: 170px;
-    margin-top: 50px;
     font-size: 50px;
+    margin-top: 100px;
+}
+.text{
+    margin-left: 300px;
+    color: white;
+    font-size: 30px;
 }
 
-.text {
-    color: white;
-    font-size: 20px;
-    margin-left: 170px;
-    margin-top: 20px;
-}
+
 
 .btn{
-    background-color: black;
+    background-color: #0066ff ;
     height: 50px;
     width: 150px;
     font-size: 18px;
-    margin-left: 170px;
+    margin-left: 300px;
     margin-top: 30px;
     border: none;
     border-radius: 5px;
     color: white;
     cursor: pointer;
 }
-
-
-
 .btn:hover{
-    background-color: black;
+    background-color: #003d99;
 }
 
 .search {
@@ -63,7 +58,7 @@
     margin-top: 130px;
 }
 
-.checkbox {
+.checkbox-1{
     margin-left: 170px;
     cursor: pointer;
 }
@@ -73,14 +68,15 @@
     cursor: pointer;
 }
 
-.sub-heading {
-    margin-left: 170px;
+.offer-heading {
+    margin-left: 190px;
     margin-top: 40px;
     font-size: 25px;
+    color: #000;
 }
 
 .sub-text {
-    margin-left: 170px;
+    margin-left: 190px;
     margin-top: 20px;
     font-size: 20px;
 }
@@ -120,7 +116,7 @@
 
 
 .flight-btn{
-    background-color: black;
+    background-color:  #0066ff;
     width: 130px;
     height: 40px;
     border-radius: 10px;
@@ -131,7 +127,7 @@
 }
 
 .flight-btn:hover{
-    background-color: gray;
+    background-color: #003d99;
 }
 
 .flight-text {
@@ -145,27 +141,7 @@
     width: 190px;
 }
 
-.img-container {
-    width: 75%;
-    height: 200px;
-    margin-left: 170px;
-}
-
 .m-b {
     margin-bottom: 20px;
 }
 
-.state-img {
-    width: 180px;
-    height: 140px;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.img-container {
-    display: flex;
-}
-
-.state-heading {
-    margin-left: 10px;
-}
