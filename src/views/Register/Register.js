@@ -19,7 +19,7 @@ const RegistrationForm = () => {
     e.preventDefault();
     // Handle form submission logic here, e.g., send data to server
     console.log('Form submitted:', formData);
-    showToast('Contacts Added Successfully ','success', 3000);
+    showToast('Registration Successfully ','success', 3000);
 
     
   };

@@ -1,6 +1,9 @@
 import Navbar from '../../component/Navbar/Navbar';
 import './Stay.css';
-import Goa from './goa-img.jpeg'
+import Goa from './goa-img.jpeg';
+import Bangalore from './bangalore-img.jpeg';
+import NewDelhi from './new-delhi-img.jpeg';
+import Jaipur from './jaipur-img.jpeg';
 
 
 function Stay(){
@@ -17,7 +20,7 @@ function Stay(){
 
            
 
-              <h2 className='offer-heading'> Offers</h2>
+              <h2 className='offer-heading'> <a href=''>Offers</a></h2>
               <p className='sub-text'>Promotions, deals and special offers for you</p>
                
                <div className='sub-container'>
@@ -46,7 +49,7 @@ function Stay(){
                 </div>
                </div>
 
-               <h2 className='offer-heading'>Explore India</h2>
+               <h2 className='offer-heading'><a href=''>Explore India </a></h2>
                <p className='sub-text m-b'>This popular destinations have a lot to offer</p>
 
                <div className='img-container'>
@@ -55,20 +58,16 @@ function Stay(){
                 </div>
 
                 <div className='img-card'>
-                  <img src={Goa} alt='' className='state-img'/>
+                  <img src={Bangalore} alt='' className='state-img'/>
                 </div>
 
                 <div className='img-card'>
-                  <img src={Goa} alt='' className='state-img'/>
+                  <img src={Jaipur} alt='' className='state-img'/>
                 </div>
 
-                <div className='img-card'>
-                  <img src={Goa} alt='' className='state-img'/>
-                </div>
 
                </div>
 
-               <h1>Hello i am achal </h1>
             
 
 
