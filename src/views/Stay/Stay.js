@@ -51,7 +51,19 @@ function Stay(){
 
                <div className='img-container'>
                 <div className='img-card'>
-                  <img src={Goa} alt='' />
+                  <img src={Goa} alt='' className='state-img'/>
+                </div>
+
+                <div className='img-card'>
+                  <img src={Goa} alt='' className='state-img'/>
+                </div>
+
+                <div className='img-card'>
+                  <img src={Goa} alt='' className='state-img'/>
+                </div>
+
+                <div className='img-card'>
+                  <img src={Goa} alt='' className='state-img'/>
                 </div>
 
                </div>
