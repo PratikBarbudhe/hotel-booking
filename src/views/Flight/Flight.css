@@ -37,6 +37,7 @@
 .headline-1 {
     margin-left: 40px;
     font-size: 25px;
+<<<<<<< HEAD
     margin-top: 0;
 }
 
@@ -94,4 +95,15 @@
 .btn-search {
     margin-left: 0.5px;
     background-color: #0000ff;
+=======
+}
+
+.backgroung-image{
+    background-image: url('https://previews.123rf.com/images/rudzhan/rudzhan2003/rudzhan200300066/142101202-businessman-hands-ordering-flight-tickets-on-mobile-phone-app-concept-poster-with-a-plane-in-the-sky.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 97% 400px ;
+    background-position: center;
+    width: auto;
+>>>>>>> 516e1918f129931bc075b8db59a9e10cc5e02a23
 }
