@@ -35,7 +35,7 @@
 .text {
     color: white;
     font-size: 20px;
-    text-align: center;
+    margin-left: 300px;
     margin-top: 20px;
 }
 
@@ -44,7 +44,7 @@
     height: 50px;
     width: 150px;
     font-size: 18px;
-    margin-left: 500px;
+    margin-left: 300px;
     margin-top: 30px;
     border: none;
     border-radius: 5px;
@@ -67,9 +67,11 @@
     padding: 10px;
     border-radius: 30px;
 }
+.offer-heading:hover{
+    background-color: #0066ff;
+}
 .offer-heading a{
     text-decoration: none;
-    background-color: #003d99;
     color: white;
     text-align: center;
 }
