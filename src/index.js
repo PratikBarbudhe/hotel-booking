@@ -2,40 +2,39 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Stay from './views/Stay/Stay';
 import Flight from './views/Flight/Flight';
+import Register from './views/Register/Register';s
 import Login from './views/Flight/Login/Login';
-import Register from "./views/Register/Register";
 import CarRental from "./views/Car-Rental/CarRental";
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
 
-const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Stay/>,
+const router = createBrowserRouter([{
+        path: "/",
+        element: < Stay / > ,
     },
     {
-      path: "/flight",
-      element: <Flight/>,
+        path: "/flight",
+        element: < Flight / > ,
     },
     {
-      path: "/CarRental",
-      element: <CarRental/>,
+        path: "/CarRental",
+        element: < CarRental / > ,
     },
     {
-        path:"/login",
-        element:<Login/>
+        path: "/login",
+        element: < Login / >
     },
     {
-        path:"Register",
-        element:<Register/>
+        path: "Register",
+        element: < Register / >
     }
-  ])
+])
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <RouterProvider router={router}/>
+root.render( <
+    RouterProvider router = { router }
+    />
 );
-
