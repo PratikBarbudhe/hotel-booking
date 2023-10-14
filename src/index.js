@@ -8,6 +8,7 @@ import RegistrationForm from "./views/Register/Register";
 import CarRental from "./views/Car-Rental/CarRental";
 import Attractions from './views/Attractions/Attractions';
 import Hotel from "./views/Hotel/Hotel";
+import Footer from "./component/Footer/Footer"
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
@@ -49,7 +50,9 @@ const router = createBrowserRouter([
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render( <
-    RouterProvider router = { router }
+root.render( <>
+  < RouterProvider router = { router }
     />
+    <Footer/>
+    </>
 );
