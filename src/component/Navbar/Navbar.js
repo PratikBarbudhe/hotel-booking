@@ -5,7 +5,8 @@ export default function Navbar() {
 
     return (
         <div className="navbar">
-            <h1 className="nav-brand">Booking.com</h1>
+            
+            <img src="https://product-images.ibotta.com/offer/ZZ-QXZ_G8mrk9rk11yD-fA-normal.png" className="brand-name"/>
             <Link className="nav-menu" to="/">Stay</Link>
 
             <Link className="nav-menu" to="/Hotel">Hotel</Link>
