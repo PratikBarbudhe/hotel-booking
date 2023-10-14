@@ -1,4 +1,4 @@
-/* button color : #0066ff
+   /* button color : #0066ff
    button hover : #003d99
 */
 
@@ -10,7 +10,7 @@
 
 
 .backgroung-image-1{
-    background-image: url(https://www.hoteltrafficbuilders.com/wp-content/uploads/2021/05/header3-bg1.jpg);
+    background-image: url('https://www.hoteltrafficbuilders.com/wp-content/uploads/2021/05/header3-bg1.jpg');
 
     background-repeat: no-repeat;
     height: 500px;
@@ -25,19 +25,21 @@
 
 .heading {
     color: white;
+    font-family: sans-serif;
+    margin-left: 170px;
+    margin-top: 50px;
     font-size: 50px;
-    margin-top: 100px;
 }
-.text{
-    margin-left: 300px;
+
+.text {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
 }
-
-
 
 .btn{
-    background-color: #0066ff ;
+    background-color: #0066ff;
     height: 50px;
     width: 150px;
     font-size: 18px;
@@ -48,8 +50,13 @@
     color: white;
     cursor: pointer;
 }
+
 .btn:hover{
     background-color: #003d99;
+}
+.offer-heading{
+    margin-left: 180px;
+    font-size: 25px;
 }
 
 .search {
@@ -58,7 +65,7 @@
     margin-top: 130px;
 }
 
-.checkbox-1{
+.checkbox {
     margin-left: 170px;
     cursor: pointer;
 }
@@ -68,11 +75,10 @@
     cursor: pointer;
 }
 
-.offer-heading {
-    margin-left: 190px;
+.sub-heading {
+    margin-left: 170px;
     margin-top: 40px;
     font-size: 25px;
-    color: #000;
 }
 
 .sub-text {
@@ -144,4 +150,3 @@
 .m-b {
     margin-bottom: 20px;
 }
-

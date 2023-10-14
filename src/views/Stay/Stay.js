@@ -1,6 +1,6 @@
 import Navbar from '../../component/Navbar/Navbar';
 import './Stay.css';
-
+import Goa from './goa-img.jpeg'
 
 
 function Stay(){
@@ -46,12 +46,12 @@ function Stay(){
                 </div>
                </div>
 
-               <h2 className='offer-heading'>Off to the cricket?</h2>
-               <p className='sub-text m-b'>Hit a six with your match-day accommodation</p>
+               <h2 className='offer-heading'>Explore India</h2>
+               <p className='sub-text m-b'>This popular destinations have a lot to offer</p>
 
                <div className='img-container'>
-                <div>
-                  <img src='' alt='' />
+                <div className='img-card'>
+                  <img src={Goa} alt='' />
                 </div>
 
                </div>
