@@ -33,7 +33,26 @@ function Footer(){
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Disclaimer</a></li>
             </ul>
-          </div>    
+          </div> 
+          
+          <div class="footer-col">
+            <h4>Newsletter</h4>
+            <p>
+              Subscribe to our booking website for a weekly dose
+              of offers, updates, helpful tips, and
+              exclusive offers.
+            </p>
+            <form action="#">
+              <input type="text" placeholder="Enter your email address" required/>
+              <button type="submit">SUBSCRIBE</button>
+            </form>
+            <div class="icons">
+              <i class="fa-brands fa-facebook-f"></i> 
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+            </div>   
           </div>
       </section>
       )}
