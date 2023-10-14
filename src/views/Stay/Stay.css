@@ -96,6 +96,10 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.sub-container a{
+    text-decoration: none;
+    color: white;
+}
 
 .fly-away-content {
     height: 200px;
@@ -157,21 +161,34 @@
 .img-container{
     width: 100%;
     margin-top: 20px;
-    height: 210px;
+    height: 300px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .img-card{
-    height: 200px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     margin: 10px;
+    box-shadow: 1px 2px 3px black;
 }
 .state-img{
-    height: 200px;
-    width: 350px;
-    border-radius: 20px;
+    height: 180px;
+    width: 290px;
+    padding: 5px;
+    border-radius: 10px;
     box-shadow: 1px 2px 3px black;
+}
+.state-name{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.img-card p{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
 }

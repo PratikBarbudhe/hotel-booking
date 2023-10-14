@@ -5,7 +5,6 @@ import Bangalore from './bangalore-img.jpeg';
 import NewDelhi from './new-delhi-img.jpeg';
 import Jaipur from './jaipur-img.jpeg';
 
-
 function Stay(){
     return(
         <div>
@@ -55,26 +54,37 @@ function Stay(){
                <div className='img-container'>
                 <div className='img-card'>
                   <img src={Goa} alt='' className='state-img'/>
+                  <h4 className='state-name'>Goa</h4>
+                  <p>Goa is a not just about the parties; it's about the peace within. </p>
                 </div>
 
                 <div className='img-card'>
                   <img src={Bangalore} alt='' className='state-img'/>
+                  <h4 className='state-name'>Bangalore</h4>
+                  <p>Bangalore, a city that never sleeps, Its energy is contagious. </p>
                 </div>
 
                 <div className='img-card'>
                   <img src={Jaipur} alt='' className='state-img'/>
+                  <h4 className='state-name'>Jaipur</h4>
+                  <p>Welcome to Pink City. The City of Joy and Happines.</p>
+                </div>
+
+                <div className='img-card'>
+                  <img src={NewDelhi} alt='' className='state-img'/>
+                  <h4 className='state-name'>New Delhi</h4>
+                  <p>Delhi is definitely foodie's paradise</p>
                 </div>
 
 
                </div>
+               <h1>hffjjhfjhufgjhfjifikfgh</h1>
 
             
 
-
-
-
               
-        </div>    
+        </div> 
+           
         
 
            
