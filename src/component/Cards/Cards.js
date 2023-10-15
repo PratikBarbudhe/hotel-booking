@@ -6,7 +6,7 @@ import "./Cards.css"
     <div className="cards-container">
       <img src={img} className="cities-images"/>
       <h4 className="city-name">{name}</h4>
-      <p className="description">{info}/-</p>
+      <p className="description">{info}</p>
      
     </div>
   )
