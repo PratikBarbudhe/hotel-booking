@@ -2,22 +2,23 @@ import React  from 'react';
 import "./Hotel.css"
 import Dropdown1 from '../../component/Dropdown1/Dropdown1';
 import Search from '../../component/Search Bar/Search';
-import APIFetch from '../../component/APIFetch/APIFetch'
 // import Hotelcard from '../../component/Hotelcard/Hotelcard';
-// import Navbar from '../../component/Navbar/Navbar';
-// import Footer from '../../component/Footer/Footer';
+import Navbar from '../../component/Navbar/Navbar';
+import Footer from '../../component/Footer/Footer';
 
 
 function Hotel() {
 
   return (
     <div className="body">
+      
       <div className="background-img">
         <div className='tracking-in-contract'>
         <h1 className='heading '>Your entire holiday in one click!</h1>
         <h3 >Book Your Hotel Now</h3>
         </div>
         <Search/>  <Dropdown1/> 
+         <p className='text'></p> 
       </div>
         <section className='book'>
           <div className='container flex_space'>

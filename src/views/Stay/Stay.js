@@ -1,7 +1,9 @@
 import Navbar from '../../component/Navbar/Navbar';
 import './Stay.css';
-
-
+import Goa from './goa-img.jpeg';
+import Bangalore from './bangalore-img.jpeg';
+import NewDelhi from './new-delhi-img.jpeg';
+import Jaipur from './jaipur-img.jpeg';
 
 function Stay(){
     return(
@@ -15,15 +17,9 @@ function Stay(){
 
           </div>  
 
-             <div>
-               <input type='checkbox' id='travel-1' className='checkbox' />
-               <label for='travel-1' className='checkbox-label'>I'm travelling for work</label> &nbsp; &nbsp; &nbsp; 
+           
 
-               <input type='checkbox' id='flight' />
-               <label for='flight' className='checkbox-label'>I'm looking for flights</label>
-              </div>
-
-              <h2 className='sub-heading'> Offers</h2>
+              <h2 className='offer-heading'> <a href=''>Offers</a></h2>
               <p className='sub-text'>Promotions, deals and special offers for you</p>
                
                <div className='sub-container'>
@@ -52,51 +48,42 @@ function Stay(){
                 </div>
                </div>
 
-               <h2 className='sub-heading'>Off to the cricket?</h2>
-               <p className='sub-text m-b'>Hit a six with your match-day accommodation</p>
+               <h2 className='offer-heading'><a href=''>Explore India </a></h2>
+               <p className='sub-text m-b'>This popular destinations have a lot to offer</p>
 
                <div className='img-container'>
-               <div>
-               <img src='https://triponzy.com/images/city/ahmedabad.jpg' alt='' className='state-img'/>
-               <h3 className='state-heading'>ahemedabad</h3>
-               </div>
-                <div>
-                <img src='https://tse3.mm.bing.net/th?id=OIP.Q2mDbXc6b1t1A-dD-Ym3ggHaE7&pid=Api&P=0&h=180' alt='' className='state-img'/>
-                <h3 className='state-heading'>Hydrabad</h3>
-                </div>
-                <div>
-                <img src='https://travelandleisureindia.in/wp-content/uploads/2020/06/Inside-Dharamshala11.jpg' alt=''className='state-img'/>
-                <h3 className='state-heading'>Dharamshala </h3>
-                </div>
-                <div>
-                <img src='https://tse2.mm.bing.net/th?id=OIP.pF7wC1NrkvK3AGz8cnAPOQHaFM&pid=Api&P=0&h=180' alt=''className='state-img'/>
-                <h3 className='state-heading'>New Delhi</h3>
-                </div>
-                <div>
-                <img src='https://tse4.mm.bing.net/th?id=OIP.-W4wf_zXtbQXT1pvbXhGegHaEP&pid=Api&P=0&h=180' alt='' className='state-img' />
-                  <h3 className='state-heading'>Lucknow</h3>
-                </div>
-                <div>
-                <img src='https://tse4.mm.bing.net/th?id=OIP.rDKAZOiDpe7CWSZx5VQvxgHaE7&pid=Api&P=0&h=180' alt=''className='state-img'/>
-                <h3 className='state-heading'>Chennai</h3>
+                <div className='img-card'>
+                  <img src={Goa} alt='' className='state-img'/>
+                  <h4 className='state-name'>Goa</h4>
+                  <p>Goa is a not just about the parties; it's about the peace within. </p>
                 </div>
 
-                
-                
-                
-                
+                <div className='img-card'>
+                  <img src={Bangalore} alt='' className='state-img'/>
+                  <h4 className='state-name'>Bangalore</h4>
+                  <p>Bangalore, a city that never sleeps, Its energy is contagious. </p>
+                </div>
+
+                <div className='img-card'>
+                  <img src={Jaipur} alt='' className='state-img'/>
+                  <h4 className='state-name'>Jaipur</h4>
+                  <p>Welcome to Pink City. The City of Joy and Happines.</p>
+                </div>
+
+                <div className='img-card'>
+                  <img src={NewDelhi} alt='' className='state-img'/>
+                  <h4 className='state-name'>New Delhi</h4>
+                  <p>Delhi is definitely foodie's paradise</p>
+                </div>
 
 
                </div>
 
-               <h1>Hello i am achal </h1>
             
 
-
-
-
               
-        </div>    
+        </div> 
+           
         
 
            

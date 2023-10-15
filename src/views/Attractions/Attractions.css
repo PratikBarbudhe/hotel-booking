@@ -7,33 +7,36 @@
 
 .attractions-title{
     font-size: 70px;
-    margin-top: 35px;
-    margin-left: 400px;
+    margin-top: 15px;
+    text-align: center;
 
 }
 .attractions-subtitle{
     font-size: 30px;
     margin-top: 10px;
-    margin-left: 400px;
+    text-align: center;
 }
 .place-container{
     margin-left: 300px;
 }
 .place-search{
     margin-top: 15px;
-    margin-left: 300px;
+    margin-left: 360px;
+    margin-right: auto;
     height: 50px;
     width: 300px;
     border-radius: 10px 0px 0px 10px;
     border: none;
     padding: 10px;
+    
 
 }
 
 .heading1{
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin-top: 30px;
+    color: black;
 }
 .place-date{
     height: 50px;
@@ -41,4 +44,10 @@
     border-radius: 0px 10px 10px 0px;
     border: none;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.main-card-container{
+    margin-left: 100px;
 }

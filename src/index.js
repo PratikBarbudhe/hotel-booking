@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Stay from './views/Stay/Stay';
 import Flight from './views/Flight/Flight';
-import Login from './views/Login/Login';
+import Register from './views/Register/Register';
+import Login from './views/Login/Login'
 import RegistrationForm from "./views/Register/Register";
 import CarRental from "./views/Car-Rental/CarRental";
 import Attractions from './views/Attractions/Attractions';
 import Hotel from "./views/Hotel/Hotel";
+import Footer from "./component/Footer/Footer"
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Navbar from './component/Navbar/Navbar';
 
 
 const router = createBrowserRouter([
@@ -16,22 +19,25 @@ const router = createBrowserRouter([
       element: <Stay/>,
     },
     {
-      path: "/flight",
-      element: <Flight/>,
+        path: "/flight",
+        element: < Flight/> ,
     },
    {
-      path:"/attraction",
-      element:<Attractions/>
+     path:"/attraction",
+     element:<Attractions/>
    },
     {
-      path:"/login",
-      element:<Login/>
+        path: "/CarRental",
+        element: < CarRental/> ,
     },
     {
-      path:"/CarRental",
-      element:<CarRental/>
+        path: "/login",
+        element: < Login/>
     },
-
+    {
+        path: "Register",
+        element: <Register/>
+    },
     {
       path:"Register",
       element:<RegistrationForm/>
@@ -40,13 +46,14 @@ const router = createBrowserRouter([
       path:"/hotel",
       element:<Hotel/>
     },
-
-
   ])
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <RouterProvider router={router}/>
-);
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render( <>
+  < RouterProvider router = { router }
+    />
+    <Footer/>
+    </>
+);
