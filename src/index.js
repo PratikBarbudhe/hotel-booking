@@ -20,8 +20,8 @@ const router = createBrowserRouter([
       element: <Flight/>,
     },
    {
-  path:"/attraction",
-  element:<Attractions/>
+      path:"/attraction",
+      element:<Attractions/>
    },
     {
       path:"/login",
@@ -33,8 +33,8 @@ const router = createBrowserRouter([
     },
 
     {
-       path:"Register",
-       element:<RegistrationForm/>
+      path:"Register",
+      element:<RegistrationForm/>
     },
     {
       path:"/hotel",
