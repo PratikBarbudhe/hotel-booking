@@ -1,4 +1,4 @@
-/* button color : #0066ff
+   /* button color : #0066ff
    button hover : #003d99
 */
 
@@ -10,13 +10,14 @@
 
 
 .backgroung-image-1{
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/20/164/15/booking-best-hotels-bangkok-tourism-wallpaper-preview.jpg');
+    background-image: url('https://www.hoteltrafficbuilders.com/wp-content/uploads/2021/05/header3-bg1.jpg');
 
     background-repeat: no-repeat;
     height: 500px;
     background-size: 97% 400px;
     background-position: center;
     width: auto;
+    
 }
 
 .heading-1{
@@ -26,24 +27,24 @@
 .heading {
     color: white;
     font-family: sans-serif;
-    margin-left: 170px;
     margin-top: 50px;
     font-size: 50px;
+    
 }
 
 .text {
     color: white;
     font-size: 20px;
-    margin-left: 170px;
+    margin-left: 300px;
     margin-top: 20px;
 }
 
 .btn{
-    background-color: black;
+    background-color: #0066ff;
     height: 50px;
     width: 150px;
     font-size: 18px;
-    margin-left: 170px;
+    margin-left: 300px;
     margin-top: 30px;
     border: none;
     border-radius: 5px;
@@ -51,26 +52,34 @@
     cursor: pointer;
 }
 
-
-
 .btn:hover{
-    background-color: black;
+    background-color: #003d99;
+    color: #000;
+}
+.offer-heading{
+    margin-left: 130px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color: #003d99;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.offer-heading:hover{
+    background-color: #0066ff;
+}
+.offer-heading a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 
 .search {
     display: block;
     margin-left: 110px;
     margin-top: 130px;
-}
-
-.checkbox {
-    margin-left: 170px;
-    cursor: pointer;
-}
-
-.checkbox-label {
-    font-size: 20px;
-    cursor: pointer;
 }
 
 .sub-heading {
@@ -80,15 +89,20 @@
 }
 
 .sub-text {
-    margin-left: 170px;
+    margin-left: 130px;
     margin-top: 20px;
     font-size: 20px;
 }
 
 .sub-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sub-container a{
+    text-decoration: none;
+    color: white;
 }
 
 .fly-away-content {
@@ -120,7 +134,7 @@
 
 
 .flight-btn{
-    background-color: black;
+    background-color:  #0066ff;
     width: 130px;
     height: 40px;
     border-radius: 10px;
@@ -131,7 +145,7 @@
 }
 
 .flight-btn:hover{
-    background-color: gray;
+    background-color: #003d99;
 }
 
 .flight-text {
@@ -145,27 +159,40 @@
     width: 190px;
 }
 
-.img-container {
-    width: 75%;
-    height: 200px;
-    margin-left: 170px;
-}
-
 .m-b {
     margin-bottom: 20px;
 }
-
-.state-img {
-    width: 180px;
-    height: 140px;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.img-container {
+.img-container{
+    width: 100%;
+    margin-top: 20px;
+    height: 300px;
     display: flex;
-}
-
-.state-heading {
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
     margin-left: 10px;
+    margin-right: 10px;
+}
+.img-card{
+    height: 310px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 1px 2px 3px black;
+}
+.state-img{
+    height: 180px;
+    width: 290px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px black;
+}
+.state-name{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.img-card p{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
 }
