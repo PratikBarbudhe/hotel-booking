@@ -1,19 +1,26 @@
+import React  from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import './Hotelcard.css';
 
-export default function Hotelcard() {
-return (
-
+function Hotelcard () {
+    
+    return (
 <Tabs>
-  <TabList>
-    <Tab>One</Tab>
-    <Tab>Two</Tab>
-    <Tab>Three</Tab>
+  <TabList className='tab-list'>
+    <Tab className='menu'>Mumbai</Tab>
+    <Tab className='menu'>Bangaluru</Tab>
+    <Tab className='menu'>Delhi</Tab>
+    <Tab className='menu'>Pune</Tab>
+    <Tab className='menu'>Nagpur</Tab>
   </TabList>
 
   <TabPanels>
     <TabPanel>
-      <p>one!</p>
+        <div>
+            
+        </div>
+
     </TabPanel>
     <TabPanel>
       <p>two!</p>
@@ -25,4 +32,5 @@ return (
 </Tabs>
 
 )
-}
+};
+export default Hotelcard 

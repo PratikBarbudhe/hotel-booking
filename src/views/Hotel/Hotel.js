@@ -34,9 +34,9 @@ function Hotel() {
                 <input type="submit" placeholder='CHECK AVAILABILITY'/>
               </form>  
             </div>
-            <Hotelcard/>
           </div>
         </section>
+        <Hotelcard/>
         <Footer/>
     </div>
   );

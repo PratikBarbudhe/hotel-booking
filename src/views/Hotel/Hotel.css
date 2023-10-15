@@ -64,8 +64,13 @@ h3{
 .grid {
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-gap: 2px;
-    
+    margin-left: 25px;
+}
+
+.form {
+  display: flex ;
+  flex-direction: row;
+  
 }
 input {
     outline: none;

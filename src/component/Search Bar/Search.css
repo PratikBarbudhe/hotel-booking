@@ -19,6 +19,10 @@
     color: white;
     background-color: #4890d7;
   }
+
+  .search-bar input::placeholder{
+    color: white;
+  }
   
   .search-bar button {
     padding: 10px 20px;
