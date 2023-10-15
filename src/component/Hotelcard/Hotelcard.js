@@ -1,16 +1,28 @@
-import React from 'react';
-import "./Hotelcard.css"
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
+import './Hotelcard.css';
 
-const Card = ({ hotel }) => {
-  return (
-    <div className="card">
-      <img src={hotel.image} className="card-img-top" alt="Hotel" />
-      <div className="card-body">
-        <h5 className="card-title">{hotel.name}</h5>
-        <p className="card-text">{hotel.description}</p>
-      </div>
-    </div>
-  );
-};
+export default function Hotelcard() {
+return (
 
-export default Card;
+<Tabs>
+  <TabList>
+    <Tab>One</Tab>
+    <Tab>Two</Tab>
+    <Tab>Three</Tab>
+  </TabList>
+
+  <TabPanels>
+    <TabPanel>
+      <p>one!</p>
+    </TabPanel>
+    <TabPanel>
+      <p>two!</p>
+    </TabPanel>
+    <TabPanel>
+      <p>three!</p>
+    </TabPanel>
+  </TabPanels>
+</Tabs>
+
+)
+}
