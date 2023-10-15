@@ -10,6 +10,7 @@ import Attractions from './views/Attractions/Attractions';
 import Hotel from "./views/Hotel/Hotel";
 import Footer from "./component/Footer/Footer"
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Navbar from './component/Navbar/Navbar';
 
 
 const router = createBrowserRouter([

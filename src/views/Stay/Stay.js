@@ -78,7 +78,6 @@ function Stay(){
 
 
                </div>
-               <h1>hffjjhfjhufgjhfjifikfgh</h1>
 
             
 

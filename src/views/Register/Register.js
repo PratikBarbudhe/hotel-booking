@@ -29,7 +29,6 @@ const RegistrationForm = () => {
 
   return (
     <>
-    
      <div className="registration-form">
       <h2>Registration Form</h2>
       <form onSubmit={handleSubmit} className='register-form'>
