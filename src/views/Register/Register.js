@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Register.css";
+import Navbar from"../../component/Navbar/Navbar";
 import showToast from "crunchy-toast";
 import Facebook from "./facebook.png";
 import Google from './google.png';
@@ -29,6 +30,7 @@ const RegistrationForm = () => {
 
   return (
     <>
+    <Navbar/>
      <div className="registration-form">
       <h2>Registration Form</h2>
       <form onSubmit={handleSubmit} className='register-form'>

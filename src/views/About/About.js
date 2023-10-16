@@ -2,14 +2,17 @@ import Achal from './achal.jpg'
 import Kaveri from './kaveri.jpg'
 import Urmila from './urmila.jpg'
 import Pratik from './pratik.jpg'
+import Suyash from './suyash.jpg'
 
 import './About.css';
 import github from './github.png';
 import linkedin from './instagram.png';
+import Navbar from '../../component/Navbar/Navbar';
 
 export default function About() {
     return(
         <>
+        <Navbar/>
         <h1 className='main-heading'> Our Team</h1>
         <div className='main-div'>
             <div className='sub-div'>
@@ -56,12 +59,12 @@ export default function About() {
                 <p className = 'team-description' >Persuing B.E.from  </p> 
                 <p className = 'team-description' > Vishwabharati Academy Engineering Collage</p>
                 <div className='link-div'>
-               < a href = "https://github.com/KaveriTupe25" >
+               < a href = "https://github.com/UrmilaPawar1909" >
                 < img src = { github }
                 alt = 'github'
                 className = 'gihub-img'/>
                 </a> 
-                < a href = 'https://www.linkedin.com/in/kaveri-tupe/' >
+                < a href = 'https://www.linkedin.com/in/urmila-pawar-3a4949278/' >
                 < img src = { linkedin }
                 alt = 'linkedin'
                 className = 'linkedIn-img' />
@@ -93,17 +96,17 @@ export default function About() {
 
 
             <div className='sub-div'>
-                <img src={Kaveri} className='team-imgs'/>
+                <img src={Suyash} className='team-imgs'/>
                 <h2 className='name-heading'>Suyash</h2>
                 <p className = 'team-description' > Persuing B.C.A from G H Raisoni </p> 
                 <p className = 'team-description' > Institute of Engineering & Technology </p>
                 <div className='link-div'>
-               < a href = "https://github.com/KaveriTupe25" >
+               < a href = "https://github.com/suyash2107" >
                 < img src = { github }
                 alt = 'github'
                 className = 'gihub-img'/>
                 </a> 
-                < a href = 'https://www.linkedin.com/in/kaveri-tupe/' >
+                < a href = 'https://www.linkedin.com/in/suyash-shinde-90a44b24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' >
                 < img src = { linkedin }
                 alt = 'linkedin'
                 className = 'linkedIn-img' />

@@ -1,8 +1,12 @@
 import React from 'react';
 import './CarRental.css'; 
+import Navbar from '../../component/Navbar/Navbar';
 
 function CarRental() {
   return (
+    <> 
+    
+    <Navbar/>
     <div className="car-rental-container">
       <header>
         <h1>Car Hire for Any Kind of Trip</h1>
@@ -30,6 +34,7 @@ function CarRental() {
         <button className="search-button">Search</button>
       </section>
     </div>
+    </>
   );
 }
 
