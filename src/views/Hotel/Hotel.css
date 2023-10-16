@@ -18,7 +18,8 @@
     color: white;
     -ms-text-size-adjust:auto ;
     font-size: 50px;
-    margin-left: 300px;
+    margin-left: 400px;
+    
 
 }
 
@@ -57,7 +58,8 @@ h3{
     color: white;
     -ms-text-size-adjust:auto ;
     font-size: 40px;
-    margin-left: 300px;
+    text-align: center;
+    margin-top: 25px;
 }
 
 /* Book Section */
@@ -80,24 +82,31 @@ input {
     padding-left: 20px;
     
 }
+.form .grid::placeholder{
+  font-size: 20px;
+}
 .book {
     padding: 40px 0;
     background: #282834;
     color: #fff;
 }
-h1 {
+h2 {
     font-family: 'Poppins', sans-serif ;
 }
-.book h1 {
-    font-size: 40px;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    margin-left: 30%;
+.book h2 {
+   font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+
 }
-.book h1 span {
+.book h2 span {
     color: #7fc142;
 }
 .book input:nth-child(5) {
     background: #7fc142;
     color:#fff;
+}
+.text{
+  display: inline;
+  justify-content: center;
 }

@@ -23,7 +23,7 @@ function Hotel() {
         <section className='book'>
           <div className='container flex_space'>
             <div className='text'>
-              <h1> <span>Book</span> Your Rooms</h1>
+              <h2> <span>Book</span> Your Rooms</h2>
             </div>
             <div className="from">
               <form className="grid">

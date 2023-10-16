@@ -16,7 +16,7 @@ const SearchBar = ({ onSearch }) => {
         onChange={(e) => setCity(e.target.value)}
         placeholder="Enter a city name"
       />
-      <button className="" onClick={handleSearch}>Search</button>
+      <button>Search</button>
     </div>
   );
 };
