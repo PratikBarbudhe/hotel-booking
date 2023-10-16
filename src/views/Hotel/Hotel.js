@@ -31,7 +31,7 @@ function Hotel() {
                 <input type="date" placeholder='Diparture Date'/> 
                 <input type="number" placeholder='Adults'/>
                 <input type="number" placeholder='Children'/> 
-                <input "type="submit" placeholder='CHECK AVAILABILITY'/>
+                <input type="submit" placeholder='CHECK AVAILABILITY'/>
               </form>  
             </div>
           </div>
