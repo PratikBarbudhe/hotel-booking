@@ -1,4 +1,4 @@
-.cards-container{
+.attraction-cards{
    
     height: 280px;
     width: 350px;
@@ -7,6 +7,7 @@
     margin-top: 60px;
     margin-left: 50px;
     display: inline-block;
+    justify-content: space-evenly;
     
 }
 .cities-images{
