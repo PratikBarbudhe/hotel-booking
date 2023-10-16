@@ -1,7 +1,8 @@
 .dropdown{
   width: 20%;
   margin: 70px;
-  left: 15%;
+  left: 50px;
+  margin-right: 20%;
   margin-top: 100px;
   position: relative;
   display: inline-block;

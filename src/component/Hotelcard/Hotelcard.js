@@ -21,7 +21,7 @@ function Hotelcard() {
                         <div className='tabpanal-container'>
                             <div>
                                 <div className='container'>
-                                  <h2>Hotels In Mumbai</h2>
+                                  <h2> Best Hotels In Mumbai</h2>
                                   <div className='cardContainer'>
                                       <Hotelcomp
                                       title="The Orchid Hotel Mumbai"
@@ -29,19 +29,19 @@ function Hotelcard() {
                                       imageUrl="https://www.in.cheapflights.com/rimg/himg/7e/f3/2d/ice-56580-97553033-161124.jpg?width=452&height=420&crop=true"
                                       />
                                       <Hotelcomp
-                                      title="Card Title 2"
+                                      title="A Luxury Collection Hotel, Mumbai"
                                       description="Description for Card 2."
-                                      imageUrl="https://via.placeholder.com/300"
+                                      imageUrl="https://www.in.cheapflights.com/rimg/himg/7f/76/f9/leonardo-99230-156448930-172946.jpg?width=968&height=607&crop=true"
                                       />
                                       <Hotelcomp
-                                      title="Card Title 1"
+                                      title="Novotel Mumbai International Airport"
                                       description="Description for Card 1."
-                                      imageUrl="https://via.placeholder.com/300"
+                                      imageUrl="https://www.in.cheapflights.com/rimg/himg/5e/b9/19/ice-1070646355-106155592-969503.jpg?width=968&height=607&crop=true"
                                       />
                                       <Hotelcomp
-                                      title="Card Title 2"
+                                      title="Taj Mahal Tower, Mumbai"
                                       description="Description for Card 2."
-                                      imageUrl="https://via.placeholder.com/300"
+                                      imageUrl="https://www.in.cheapflights.com/rimg/himg/74/83/0f/leonardo-1996235-015_Pooside_O-176626.jpg?width=968&height=607&crop=true"
                                       />
                                   </div>
                                 </div>
