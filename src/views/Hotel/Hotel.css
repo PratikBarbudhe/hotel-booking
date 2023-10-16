@@ -19,6 +19,7 @@
     -ms-text-size-adjust:auto ;
     font-size: 50px;
     margin-left: 400px;
+    
 
 }
 
@@ -93,10 +94,10 @@ h2 {
     font-family: 'Poppins', sans-serif ;
 }
 .book h2 {
-    font-size: 40px;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    margin-left: 1%;
+   font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+
 }
 .book h2 span {
     color: #7fc142;
@@ -104,4 +105,8 @@ h2 {
 .book input:nth-child(5) {
     background: #7fc142;
     color:#fff;
+}
+.text{
+  display: inline;
+  justify-content: center;
 }

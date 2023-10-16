@@ -1,5 +1,5 @@
 .tab-container{
-  display: flex;
+  
   justify-content: center;
   margin: 50px auto;
 
@@ -10,7 +10,7 @@
   width: 100%;
   border: none;
   padding: 10px 25px;
-  border-radius: 3rem;
+  border-radius: 7rem;
   font-size: 1rem;
   font-weight: 500;
   font-family: "poppins";
@@ -19,17 +19,17 @@
 .tablist-menu:hover{
   background: none;
   outline: 1px solid orange;
- font-weight: 600;
+  font-weight: 600;
   transform:scale(.98);
   transition: all ease-in-out 0.2s;
 }
 
 
 .tabpanal-container{
-  display: inline;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  max-width: 65%;
+  max-width: 90%;
   margin: 0px auto;
 }
 
@@ -37,7 +37,13 @@
   text-align: center;
 }
 .cardContainer {
-  display: 'inline-flex';
+  display: 'flex';
+  flex-direction: row;
   justify-content: center;
+
+}
+.tabpanal-heading{
+  text-align: center;
+  margin: 50px auto;
 
 }
