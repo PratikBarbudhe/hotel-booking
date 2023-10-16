@@ -85,16 +85,16 @@ input {
     background: #282834;
     color: #fff;
 }
-h1 {
+h2 {
     font-family: 'Poppins', sans-serif ;
 }
-.book h1 {
+.book h2 {
     font-size: 40px;
     margin-top: 1%;
     margin-bottom: 2%;
-    margin-left: 30%;
+    margin-left: 5%;
 }
-.book h1 span {
+.book h2 span {
     color: #7fc142;
 }
 .book input:nth-child(5) {
