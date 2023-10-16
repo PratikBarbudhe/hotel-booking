@@ -1,13 +1,17 @@
 import React from 'react'
  import "./Hotelcomp.css";
 
- const Card = ({ title, description, imageUrl }) => {
+ const Card = ({ name, description, imageUrl, price, rating }) => {
     return (
-      <div className="card">
-        <img src={imageUrl} alt="card" className="image" />
-        <div className="cardBody">
-          <h3 className="title">{title}</h3>
-          <p className="description">{description}</p>
+      <div className="hotel-card">
+        <img src={imageUrl} alt="hotel" className="hotel-image" />
+        <div className="hotel-details">
+          <h3 className="hotel-name">{name}</h3>
+          <p className="hotel-description">{description}</p>
+          <div className="hotel-info">
+           <p className="hotel-price"> ₹{price} Per Night</p>
+           <p className="hotel-rating"> {rating}</p>
+         </div>
         </div>
       </div>
     );

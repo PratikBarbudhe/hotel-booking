@@ -1,5 +1,5 @@
 
-.card {
+/* .hotel-card {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
@@ -8,26 +8,49 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s;
     background-color: rgb(136, 136, 246);
+  } */
+
+  .hotel-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+    overflow: hidden;
+    background-color: rgb(253, 255, 255);
   }
   
-  .image {
+  .hotel-image {
     width: 100%;
     height: 250px;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
   }
   
-  .cardBody {
-    padding: 10px;
+  .hotel-details {
+    padding: 15px;
   }
   
-  .title {
+  .hotel-name {
     font-size: 1.5rem;
-    margin: 5px 0;
-
+    margin: 10px 0;
+    color: rgb(105, 80, 80) ;
   }
   
-  .description {
+  .hotel-description {
     font-size: 1rem;
     color: #555;
+  }
+  
+  .hotel-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hotel-price {
+    font-size: 1.2rem;
+  }
+  
+  .hotel-rating {
+    font-size: 1.2rem;
   }
   
