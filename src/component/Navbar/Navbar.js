@@ -8,9 +8,8 @@ export default function Navbar() {
             
             <img src="https://product-images.ibotta.com/offer/ZZ-QXZ_G8mrk9rk11yD-fA-normal.png" className="brand-name"/>
             <Link className="nav-menu" to="/">Stay</Link>
-
+            <Link className="nav-menu" to="/About">About</Link>
             <Link className="nav-menu" to="/Hotel">Hotel</Link>
-            <Link className="nav-menu"  to="/flight">Flight</Link>
             <Link className="nav-menu"  to="/attraction">Attraction</Link>
             <Link className="nav-menu"  to="/CarRental">CarRental</Link>
             <Link className="nav-menu"  to="/login">Login</Link>
