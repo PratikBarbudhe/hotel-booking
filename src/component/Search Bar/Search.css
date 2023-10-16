@@ -6,6 +6,7 @@
     width: 350px;
     margin-top: 100px;
     margin-left: 25%;
+    height: 30px;
     color: white;
   }
   
@@ -26,16 +27,17 @@
   
   .search-bar button {
     padding: 10px 20px;
-    background-color: #4caf50;
-    color: #fff;
+    background-color: #4890d7;
+    color: ;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
   }
   
   .search-bar button:hover {
-    background-color: #45a049;
+    background-color: #003d99;
+    color: antiquewhite;
   }
   
   .search-bar button:focus {

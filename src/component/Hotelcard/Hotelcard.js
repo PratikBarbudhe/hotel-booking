@@ -194,7 +194,7 @@ function Hotelcard() {
                                       />
                                       
                                       <Hotelcomp
-                                      name="Taj Mahal Tower"
+                                      name="Taj Mahal Tower, Nagpur"
                                       description="Sleek and stylish high-rise hotel with a vibrant and lively atmosphere"
                                       imageUrl="https://cf.bstatic.com/xdata/images/hotel/square600/446998674.webp?k=f0a69ad3ea93a77e2116423e0383a5c0330fc19fd1c390ca45f9766cb43b4a90&o="
                                       price="10,000"

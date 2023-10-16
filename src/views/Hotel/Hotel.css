@@ -76,7 +76,7 @@ h3{
 }
 input {
     outline: none;
-    border: 2px solid rgb(111, 139, 53);
+    border: 1px black ;
     width: 90%;
     padding: 17px;
     padding-left: 20px;
@@ -100,11 +100,14 @@ h2 {
 
 }
 .book h2 span {
-    color: #7fc142;
+    color: rgb(157, 131, 181);
 }
 .book input:nth-child(5) {
-    background: #7fc142;
-    color:#fff;
+    background: rgb(165, 147, 181);
+    color:#000000;
+}
+.book input:nth-child(5):hover{
+  background-color:#003d99 ;
 }
 .text-book{
   display: inline;
