@@ -131,8 +131,6 @@
     width: 200px;
 }
 
-
-
 .flight-btn{
     background-color:  #0066ff;
     width: 130px;
@@ -142,6 +140,7 @@
     font-size: 15px;
     border: none;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .flight-btn:hover{
