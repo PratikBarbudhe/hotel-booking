@@ -9,7 +9,7 @@ import React from 'react'
           <h3 className="hotel-name">{name}</h3>
           <p className="hotel-description">{description}</p>
           <div className="hotel-info">
-           <p className="hotel-price"> ₹{price} Per Night</p>
+           <p className="hotel-price"> ₹{price} </p>
            <p className="hotel-rating"> {rating}</p>
          </div>
         </div>

@@ -22,7 +22,7 @@ function Hotel() {
       </div>
         <section className='book'>
           <div className='container flex_space'>
-            <div className='text'>
+            <div className='text-book'>
               <h2> <span>Book</span> Your Rooms</h2>
             </div>
             <div className="from">

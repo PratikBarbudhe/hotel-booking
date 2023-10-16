@@ -7,8 +7,9 @@
 
 .tablist-menu {
   margin: 5px 5px 15px 5px;
+  background-color:rgb(205, 186, 223);
   width: 100%;
-  border: none;
+  border: 1px solid rgb(9, 9, 9);
   padding: 10px 25px;
   border-radius: 7rem;
   font-size: 1rem;
@@ -17,8 +18,9 @@
   letter-spacing: .5px;
 }
 .tablist-menu:hover{
-  background: none;
-  outline: 1px solid orange;
+  background-color: #003d99;
+  color: antiquewhite;
+  outline: 1px solid rgb(9, 9, 9);
   font-weight: 600;
   transform:scale(.98);
   transition: all ease-in-out 0.2s;
@@ -31,6 +33,7 @@
   justify-content: space-around;
   max-width: 90%;
   margin: 0px auto;
+  margin-bottom: 100px;
 }
 
 .container {
