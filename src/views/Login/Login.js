@@ -8,7 +8,7 @@ function Login(){
 
     return(<>
         <Navbar/>
-        <div className="container">
+        <div className="login-container">
         <div className="header">
          <div className="text-h">{action}</div>  
          <div className="underline"></div> 

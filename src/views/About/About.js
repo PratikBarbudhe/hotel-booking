@@ -3,10 +3,11 @@ import Kaveri from './kaveri.jpg'
 import Urmila from './urmila.jpg'
 import Pratik from './pratik.jpg'
 import Suyash from './suyash.jpg'
+import Shravan from './shravan.jpg'
 
 import './About.css';
 import github from './github.png';
-import linkedin from './instagram.png';
+import linkedin from './linked-in.png'
 import Navbar from '../../component/Navbar/Navbar';
 
 export default function About() {
@@ -116,7 +117,7 @@ export default function About() {
 
 
             <div className='sub-div'>
-                <img src={Kaveri} className='team-imgs'/>
+                <img src={Shravan} className='team-imgs'/>
                 <h2 className='name-heading'>Shravan</h2>
                 <p className = 'team-description' > Persuing M.C.A from G H Raisoni </p> 
                 <p className = 'team-description' > Institute of Engineering & Technology </p>

@@ -11,10 +11,10 @@ import Paris from "./paris.jpg";
 import Srilanka from "./srilanka.jpg";
 import Korea from "./korea.webp";
 import Singapore from "./singapur.jpg";
-import Europe from "./Europe";
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+// import Europe from "./Europe";
+// import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import AttractionNavbar from "../../component/AttractionNavabar/AttractionNavbar";
+// import AttractionNavbar from "../../component/AttractionNavabar/AttractionNavbar";
 
 /*const router = createBrowserRouter([
     {
@@ -61,7 +61,7 @@ export default function Attractions() {
                 <p className="attractions-title"><b>Attractions, activities and <br />experiences</b></p>
                 <p className="attractions-subtitle"> Discover new attractions and experiences to match your<br /> interests and travel style</p>
                 <div className="place-container">
-                    <input type="text" placeholder="Where are you going" className="place-search" />
+                    <input type="input-text" placeholder="Where are you going" className="place-search" />
 
                     <input type="date" placeholder="Select yours date" className="place-date" />
                 </div>
